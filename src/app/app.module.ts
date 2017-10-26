@@ -6,6 +6,7 @@ import { AngularFireAuthModule } from "angularfire2/auth";
 
 import { AppComponent } from './app.component';
 import { VidoesComponent } from './vidoes/vidoes.component';
+import { HomeComponent } from './home/home.component';
 
 var firebaseConfig = {
   "apiKey": "AIzaSyBcWifa9JKUuSrEMTJQm35QUGKZrZf7KCw",
@@ -19,7 +20,8 @@ var firebaseConfig = {
 @NgModule({
   declarations: [
     AppComponent,
-    VidoesComponent
+    VidoesComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
